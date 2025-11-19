@@ -12,6 +12,7 @@ CREATE TABLE kunder (
     Namn VARCHAR(100) NOT NULL,
     Email VARCHAR(255) UNIQUE NOT NULL,
     Registreringsdatum TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+<<<<<<< HEAD
 );
 
 -- produkter
@@ -35,3 +36,6 @@ CREATE TABLE Produkter (
 
 
 
+=======
+);
+>>>>>>> 3a2311568b385c6177ca4091df164ef25a339192
